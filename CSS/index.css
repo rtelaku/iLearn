@@ -1,0 +1,66 @@
+a{
+    font-style: normal;
+    font-size: 15pt;
+}
+
+img{
+    width: 75px;
+    height: 75px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.header{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+}
+
+#user_container{
+    min-width: 1000px;
+}
+
+#tableBody tr td{
+    padding-right: -20px;
+}
+
+#userrr{
+    min-width: 1000px;
+}
+
+#edit_user{
+    margin-right: 30px;
+}
+
+.header button{
+    border-radius: 20px;
+    background: gray;
+    text-decoration: none;
+    border: none;
+    width: 80px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+
+}
+
+
+ul li{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    margin: 30px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 850px;
+}
+
+body{
+    background-color: lightgray;
+}
