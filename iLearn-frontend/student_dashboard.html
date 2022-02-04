@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="index.css">
+    <header>
+        <img src="Logo.png" class="logo" alt="Logo" width="90px" height="90px">
+        <ul>
+        
+            <li><button class="btnHeader" >Home</button></li>
+            <li><button class="btnHeader" id="about" >About Us</button></li>
+            <li><button class="btnHeader" >Contact Us</button></li>
+            <li><button class="btnHeader" >Login</button></li>
+        </ul>
+    </header>
+</head>
+
+<body>
+    <div id="content">
+        <div class="menubar">
+            <h3 style="text-align: center; color: white;">Dashboard Menu</h3>
+            <button id="menubutton" class="info_button" onclick="show_info()">Personal Info</button>
+            <button id="menubutton" class="courses_button" onclick="show_courses()">Courses</button>
+            <button id="menubutton" class="books_button" onclick="show_books()">Books</button>
+        </div>
+        <div class="main_content_student">
+            <h1 id="welcome">Welcome back! </h1>
+        </div>
+            
+    </div>
+
+    <script src="JavaScript/student_dashboard_menu.js"></script>
+</body>
+</html>
